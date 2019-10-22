@@ -1,0 +1,57 @@
+.content1{
+    width: 100%;
+    align-self: auto;
+    
+
+}
+
+.strick{
+    text-decoration:line-through; 
+    text-decoration-color: rgb(134, 136, 138);
+    color:gray;
+}
+
+.price{
+    display: inline;
+    color: #3d5afe;
+}
+
+.off{
+    float:right;
+    color: rgb(17, 218, 10);
+}
+
+.t{
+    color:#3d5afe;
+    font-family:cursive; 
+}
+
+.c{
+    font-size: 30px;
+    font-weight: 1200;
+}
+
+.b{
+    text-align: center;
+    color: rgb(6, 156, 6);
+}
+
+.e{
+    text-align: center;
+    color: rgb(62, 63, 65);
+    font-size: 18px; 
+}
+.map-container{
+    overflow:hidden;
+    padding-bottom:0%;
+    position:relative;
+    height:0;
+    }
+    .map-container iframe{
+    left:0;
+    top:20%;
+
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
